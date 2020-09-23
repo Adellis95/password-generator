@@ -2,20 +2,24 @@
 
 ## Description
 
-Words
+My Password Generator website provides a simple generator that prompts users for specific criteria to apply to the generated password. This website is perfect for creating a password with complex security standards because it prompts the users for: Numbers, Special Characters, Upper Case, and Lower Case. The password generator can also be applied to creating passwords for sensitive files on your computer like tax information, banking information, etc. This project was designed to teach me how to manipulate javascript by calling variables from the user's input and to apply them to the generatePassword function using if statements.
 
 ## Table of Contents
 
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Minimum_Requirements](#minimum_requirements)
-- [Usage](#usage)
+- [Acceptance_Criteria](#acceptance_criteria)
 - [Credits](#credits)
 - [License](#license)
 
-## Screenshots
+## Screenrecord
 
-words
+Demonstration of application:
+https://drive.google.com/file/d/1b5joNUqHMFo-R-xRGICE-d5GSWQydscG/view
+
+Embed code:
+
+<iframe src="https://drive.google.com/file/d/1b5joNUqHMFo-R-xRGICE-d5GSWQydscG/preview" width="640" height="480"></iframe>
 
 ## Installation
 
@@ -45,13 +49,9 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Usage
-
-words
-
 ## Credits
 
-Words
+- https://github.com/jamierachael Jamie Rachael Morris. I used part of her script.js, shortened her if else statements, and fixed the errors produced in her code.
 
 ## License
 
