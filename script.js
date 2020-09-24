@@ -1,10 +1,8 @@
-// User input variables:
 var enter;
 var confirmNumber;
 var confirmCharacter;
 var confirmUppercase;
 var confirmLowercase;
-// Start Password variable values:
 
 character = [
   "!",
@@ -40,7 +38,7 @@ character = [
   "~",
 ];
 
-number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 alpha = [
   "a",
@@ -70,7 +68,7 @@ alpha = [
   "y",
   "z",
 ];
-// Space is for the Uppercase conversion
+
 space = [];
 
 // converts letters to uppercase
@@ -89,7 +87,6 @@ get.addEventListener("click", function () {
 
 // Start function to generate password
 function generatePassword() {
-  // Asks for user input
   enter = 0;
   while (!enter || enter < 8 || enter > 128) {
     enter = parseInt(
@@ -122,7 +119,7 @@ function generatePassword() {
     choices = choices.concat(alpha);
   }
   console.log("choices = ", choices);
-  // password variable is an array placeholder for user generated amount of length
+
   var password = [];
 
   if (
@@ -131,10 +128,9 @@ function generatePassword() {
     !confirmUppercase &&
     !confirmLowercase
   ) {
-    choices = alert("You must choose a criteria!");
+    alert("You must choose a criteria!");
     ps = "Your Secure Password";
   } else {
-    // Start random selection variables:
     // Random selection for all variables:
     for (var i = 0; i < enter; i++) {
       var pickChoices = choices[Math.floor(Math.random() * choices.length)];
@@ -149,7 +145,7 @@ function generatePassword() {
   return ps;
 }
 // This puts the password value into the textbox
-// Changed function input to use textcontent
+
 function UserInput(ps) {
   document.getElementById("password").textContent = ps;
 }

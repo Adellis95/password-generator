@@ -4,9 +4,11 @@
 
 My Password Generator website provides a simple generator that prompts users for specific criteria to apply to the generated password. This website is perfect for creating a password with complex security standards because it prompts the users for: Numbers, Special Characters, Upper Case, and Lower Case. The password generator can also be applied to creating passwords for sensitive files on your computer like tax information, banking information, etc. This project was designed to teach me how to manipulate javascript by calling variables from the user's input and to apply them to the generatePassword function using if statements.
 
+To use this application, the user will have to press the "Generate Password" button and then the user will be given a set of prompts that will apply to the, soon to be generated, password. The user will have to choose at least one criteria, from the prompts, for the application to generate a password. If no criteria is chosen, the user will be alerted that they need at least one criteria and will need to press the "Generate Password" button to be re-prompted the password criteria. This application is very user friendly and is recommended for strict password requirements.
+
 ## Table of Contents
 
-- [Screenshots](#screenshots)
+- [Screenrecord](#screenrecord)
 - [Installation](#installation)
 - [Acceptance_Criteria](#acceptance_criteria)
 - [Credits](#credits)
